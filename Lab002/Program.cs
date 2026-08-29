@@ -8,13 +8,39 @@
 
 
 
+using static System.Net.Mime.MediaTypeNames;
+
 namespace Lab002
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            string bossName = "Kirin";
+            char rank = 'S';
+            int level = 7;
+            int maxHp = 240;
+            int currentHp = 175;
+            float attackPower = 42.5f;
+            double critMultiplier = 1.75;
+            bool isBoss = true;
+
+            Console.WriteLine("===== BOSS STATUS: INITIAL =====");
+            Console.WriteLine($"Name: {bossName}");
+            Console.WriteLine($"Rank: {rank}");
+            Console.WriteLine($"Level: {level}");
+            
+            Console.WriteLine($"Current HP: {currentHp} / {maxHp}");
+            
+
+            int hpPercent = currentHp * 100 / maxHp;
+            Console.WriteLine($"HP Percent: {hpPercent}%");
+            Console.WriteLine();
+            Console.WriteLine("Kirin take 60 damage!");
+            Console.WriteLine();
+            Console.WriteLine($"===== BOSS STATUS: AFTER DAMAGE =====");
+            Console.WriteLine($"Current HP: {currentHp} / {maxHp}");
+            Console.WriteLine($"HP Percent: {hpPercent}%");
         }
     }
 }
