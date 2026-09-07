@@ -26,6 +26,9 @@
 
             // ทำ  Implicit หลังการคำนานเปอรืเซ็นค์ ที่มีผลลัพธ์ทศนิยม
             Console.WriteLine("\n----- Exact HP Percent (no integer truncation)----");
+            double hpPercentExact = currentHpDouble * 100 / maxHp; 
+            Console.WriteLine($"HP Percent (exact) : {hpPercentExact}%");
+            
 
         }
     }
