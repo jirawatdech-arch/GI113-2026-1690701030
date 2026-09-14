@@ -23,17 +23,17 @@ namespace Lab05
             //User input of Sigma statats
             Console.Write("Sigma HP: ");
             bool isSigmaHp = int.TryParse(Console.ReadLine(), out int SigmaHp);
-            Console.Write("SigmaAttack");
+            Console.Write("SigmaAttack:");
             bool isSigmaAttack = int.TryParse(Console.ReadLine(), out int SigmaAttack);
-            Console.Write("SigmaDef");
+            Console.Write("SigmaDef:");
             bool isSigmaDef = int.TryParse(Console.ReadLine(), out int SigmaDef);
 
             //User input of Larbmonster statats
             Console.Write("Larbmonster HP: ");
             bool isLarbmonsterHp = int.TryParse(Console.ReadLine(), out int LarbmonsterHp);
-            Console.Write("LarbmonsterAttack");
+            Console.Write("LarbmonsterAttack:");
             bool isLarbmonsterAttack = int.TryParse(Console.ReadLine(), out int LarbmonsterAttack);
-            Console.Write("LarbmonsterDef");
+            Console.Write("LarbmonsterDef:");
             bool isLarbmonsterDef = int.TryParse(Console.ReadLine(), out int LarbmonsterDef);
 
             //Check if player input is valid
