@@ -1,12 +1,4 @@
-
-/*
-* Student ID :1690701030
-* Name       :jirawat dechprom
-
-*Section     :129A
-* No.        :35
-*Course     : GI113 Computer Programming (GI)
-*/
+using System;
 
 namespace Lab06._1
 {
@@ -14,6 +6,14 @@ namespace Lab06._1
     {
         static void Main(string[] args)
         {
+            /*
+* Student ID :1690701030
+* Name       :jirawat dechprom
+* Section     :129A
+* No.        :35
+* Course     : GI113 Computer Programming (GI)
+*/
+
             string name = "Larb-hunter";
             char rank = 'B';
             int level = 5;
