@@ -1,4 +1,3 @@
-using System;
 
 namespace Lab06._1
 {
