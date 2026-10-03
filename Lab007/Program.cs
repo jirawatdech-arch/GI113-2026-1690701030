@@ -1,5 +1,11 @@
 ﻿using static System.Net.Mime.MediaTypeNames;
-
+/*
+* Student ID :1690701030
+* Name       :jirawat dechprom
+* Section     :129A
+* No.        :35
+* Course     : GI113 Computer Programming (GI)
+*/
 namespace Lab007
 {
     internal class Program
